@@ -16,4 +16,10 @@ string msg # message
 string file # file the message came from
 string function # function the message came from
 uint32 line # line the message came from
-string[] topics # topic names that the node publishes
+#string[] topics # topic names that the node publishes
+
+# new filds
+string username
+string ros_master_uri
+string ros_ip
+string ros_hostname
